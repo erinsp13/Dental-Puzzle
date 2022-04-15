@@ -1,0 +1,48 @@
+BODY{
+    background-color: rgb(220, 245, 252);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ .tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9 {
+        display: table-cell;
+        width: 120px;
+        height: 120px;
+        border: 1px solid white;
+        cursor: pointer;
+        background: url(./images/hygiene.jpeg)
+      }
+      .tile1 {background-position: left top;}
+      .tile2 {background-position: center top;}
+      .tile3 {background-position: right top;}
+      .tile4 {background-position: left center;}
+      .tile5 {background-position: center center;}
+      .tile6 {background-position: right center;}
+      .tile7 {background-position: left bottom;}
+      .tile8 {background-position: center bottom;}
+      .tile9 {background: white; cursor: default;}
+
+      button{
+        background-color: #fff;
+        color: #000;
+        font-family: monospace;
+        font-weight: 600;
+        border: solid 1px white;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 1.2em;
+        padding: 12px 8px;
+        width: 120px;
+        margin: 10px;
+        outline: none;
+        border-radius: 15px;
+      }
+      button:hover{
+        background-color: #000;
+        color:white;
+      } 
+
+#container1{
+    float:left;
+    text-align: center;
+    padding-left: 50px;
+}

@@ -5,9 +5,12 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Level one</h1>
+        <h1>Simple Level</h1>
         <h2>Hygiene</h2>
-        <div id="timer"></div>
+        <div id="container1">
+        <div id="timer">
+            <p><span id="seconds">00</span>:<span id="tens">00</span></p>
+            </div>
         <center id="simple">
             <div id="row1" style="display: table-row;">
                 <div id="cell11" class="tile1" onClick="clickTile(1,1);"></div>
@@ -24,12 +27,20 @@
                 <div id="cell32" class="tile8" onClick="clickTile(3,2);"></div>
                 <div id="cell33" class="tile9" onClick="clickTile(3,3);"></div>
              </div>
-          </div>            
-        </center>
-        <div class="wrapper">
+            </center>
+        
+        <div class="wrapper1">
             <button id="button-start">Start</button>
             <button id="button-shuffle" onClick="shuffle();">Shuffle</button>
          </div>
+        </div>
+         <div id="facts1">Facts</div>
+         <nav>
+            <a href="simple.html">Simple</a>
+            <a href="easy.html">Easy</a>
+            <a href="moderate.html">Moderate</a>
+            <a href="hard.html">Hard</a>
+      </nav>
     </body>
     <script src="script.js"></script>
 </html>
