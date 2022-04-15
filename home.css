@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(220, 245, 252);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+header{
+    background-color: rgb(20, 36, 58);
+    height: 100px;
+    color: #fff;
+    font-size: 3.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: none;
+}
+#nav1{
+    margin-top: 30px;
+    font-size: 2em;
+    word-spacing: 10px;
+    float: right;
+    width: 20%;
+    border: rgb(20, 36, 58) solid 1px;
+    border-radius: 5px;
+}
+#directions{
+    padding-top: 30px;
+    font-size: 2em;
+    float: left;
+    width: 70%;
+}
