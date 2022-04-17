@@ -19,12 +19,20 @@ header{
     word-spacing: 10px;
     float: right;
     width: 20%;
-    border: rgb(20, 36, 58) solid 1px;
+    border: rgb(20, 36, 58) solid 2px;
     border-radius: 5px;
+    text-decoration: none;
 }
 #directions{
     padding-top: 30px;
     font-size: 2em;
     float: left;
     width: 70%;
+}
+a:link{
+    text-decoration: none;
+
+}
+a:visited{
+    color: rgb(20, 36, 58);
 }
