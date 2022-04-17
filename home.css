@@ -12,19 +12,19 @@ header{
     text-align: center;
     padding-top: 30px;
     margin-top: none;
+    border-radius: 5px;
 }
 #nav1{
-    margin-top: 30px;
     font-size: 2em;
-    word-spacing: 10px;
-    float: right;
-    width: 20%;
+    word-spacing: 30px;
+    width: 100%;
     border: rgb(20, 36, 58) solid 2px;
     border-radius: 5px;
     text-decoration: none;
+    list-style: none;
 }
 #directions{
-    padding-top: 30px;
+    padding-top: 10px;
     font-size: 2em;
     float: left;
     width: 70%;
@@ -35,4 +35,10 @@ a:link{
 }
 a:visited{
     color: rgb(20, 36, 58);
+}
+a:hover{
+    color:rgb(42, 121, 121)
+}
+ul li{
+    display: inline;
 }

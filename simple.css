@@ -2,6 +2,7 @@ BODY{
     background-color: rgb(220, 245, 252);
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(20, 36, 58);
 }
  .tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9 {
         display: table-cell;
@@ -9,7 +10,7 @@ BODY{
         height: 120px;
         border: 1px solid white;
         cursor: pointer;
-        background: url(./images/hygiene.jpeg)
+        background: url(./images/simple.jpeg)
       }
       .tile1 {background-position: left top;}
       .tile2 {background-position: center top;}
@@ -46,5 +47,40 @@ BODY{
     text-align: center;
     padding-left: 50px;
 }
+#nav1{
+  font-size: 2em;
+  word-spacing: 30px;
+  width: 100%;
+  border: rgb(20, 36, 58) solid 2px;
+  border-radius: 5px;
+  text-decoration: none;
+  list-style: none;
+}
+a:link{
+  text-decoration: none;
+
+}
+a:visited{
+  color: rgb(20, 36, 58);
+}
+a:hover{
+  color:rgb(42, 121, 121)
+}
+ nav ul li{
+  display: inline;
+}
+#facts1{
+  font-size: 1.5em;
+  margin-top: 10px;
+  width: 55%;
+  float: right;
+}
+.h1{
+  font-size: 1.5em;
+}
+#timer{
+  font-size: 2em;
+}
+
 
 
