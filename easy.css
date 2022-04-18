@@ -1,20 +1,31 @@
 BODY{
-    background-color: rgb(220, 245, 252);
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(20, 36, 58);
+  background-color:#fff;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(20, 36, 58);
+}
+header{
+  background-color: rgb(20, 36, 58);
+  height: 150px;
+  color: #fff;
+  font-size: 1.5em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  margin-top: none;
+  border-radius: 5px;
 }
 
- .tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9, .tile10, .tile11, .tile12, .tile13, .tile14{
+ .tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9, .tile10, .tile11, .tile12, .tile13, .tile14, .tile15, .tile16{
         display: table-cell;
         width: 90px;
         height: 90px;
         border: 1px solid white;
         cursor: pointer;
-        background: url(./images/easy.jpeg)
+        background: url(./images/easy.jpeg);
+        background-position: -90px -180px;
       }
       .tile1 {background-position: top left;}
-      .tile2 {background-position: top  center left;}
+      .tile2 {background-position: top  left center;}
       .tile3 {background-position: center top left;}
       .tile4 {background-position: top right;}
       .tile5 {background-position: center top left;}
@@ -31,8 +42,8 @@ BODY{
       .tile16 {background: white; cursor: default;}
 
       button{
-        background-color: #fff;
-        color: #000;
+        background-color:rgb(20, 36, 58);
+        color: #fff;
         font-family: monospace;
         font-weight: 600;
         border: solid 1px white;
@@ -52,16 +63,17 @@ BODY{
       #container1{
         float:left;
         text-align: center;
-        padding-left: 50px;
+        padding-left: 30px;
     }
     #nav1{
       font-size: 2em;
       word-spacing: 30px;
-      width: 100%;
+      width: 50%;
       border: rgb(20, 36, 58) solid 2px;
       border-radius: 5px;
       text-decoration: none;
       list-style: none;
+      margin-left: 300px;
     }
     a:link{
       text-decoration: none;
@@ -77,8 +89,14 @@ BODY{
       display: inline;
     }
     #facts1{
-      font-size: 2em;
-      margin-top: 50px;
+      font-size: 1.5em;
+      margin-top: 10px;
+      width: 65%;
+      float: right;
+      padding-right: 20px;
+    }
+    .h1{
+      font-size: 1.5em;
     }
     #timer{
       font-size: 2em;

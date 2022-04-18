@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(220, 245, 252);
+    background-color: #fff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
 }
@@ -17,11 +17,12 @@ header{
 #nav1{
     font-size: 2em;
     word-spacing: 30px;
-    width: 100%;
+    width: 50%;
     border: rgb(20, 36, 58) solid 2px;
     border-radius: 5px;
     text-decoration: none;
     list-style: none;
+    margin-left: 300px;
 }
 #directions{
     padding-top: 10px;
