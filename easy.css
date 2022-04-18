@@ -24,21 +24,21 @@ header{
         background: url(./images/easy.jpeg);
         background-position: -90px -180px;
       }
-      .tile1 {background-position: top left;}
-      .tile2 {background-position: top  left center;}
-      .tile3 {background-position: center top left;}
-      .tile4 {background-position: top right;}
-      .tile5 {background-position: center top left;}
-      .tile6 {background-position: ;}
-      .tile7 {background-position: ;}
-      .tile8 {background-position: ;}
-      .tile9 {background-position: ;}
-      .tile10 {background-position: ;}
-      .tile11 {background-position: ;}
-      .tile12 {background-position: ;}
-      .tile13 {background-position: ;}
-      .tile14 {background-position:  ;}
-      .tile15 {background-position: ;}
+      .tile1 {background-position: 0px 0px;}
+      .tile2 {background-position: -90px 0px;}
+      .tile3 {background-position: -180px 0px;}
+      .tile4 {background-position: -270px 0px;}
+      .tile5 {background-position: 0px -90px;}
+      .tile6 {background-position: -90px -90px;}
+      .tile7 {background-position: -180px -90px;}
+      .tile8 {background-position: -270px -90px;}
+      .tile9 {background-position: 0px -180px;}
+      .tile10 {background-position: -90px -180px;}
+      .tile11 {background-position: -180px -180px;}
+      .tile12 {background-position: -270px -180px;}
+      .tile13 {background-position: 0px -270px;}
+      .tile14 {background-position: -90px -270px;}
+      .tile15 {background-position: -180px -270px;}
       .tile16 {background: white; cursor: default;}
 
       button{
