@@ -1,6 +1,5 @@
 BODY{
   background-color:#fff;
-  text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: rgb(20, 36, 58);
 }
@@ -57,21 +56,7 @@ header{
         color:white;
       }
 
-    #container1{
-      float:left;
-      text-align: center;
-      padding-left: 30px;
-    }
-    #nav1{
-      font-size: 2em;
-      word-spacing: 30px;
-      width: 50%;
-      border: rgb(20, 36, 58) solid 2px;
-      border-radius: 5px;
-      text-decoration: none;
-      list-style: none;
-      margin-left: 300px;
-    }
+
     a:link{
       text-decoration: none;
     
@@ -82,30 +67,43 @@ header{
     a:hover{
       color:rgb(42, 121, 121)
     }
-    ul li{
-      display: inline;
-    }
-    #facts1{
+   
+    #facts{
       font-size: 1.5em;
-      margin-top: 10px;
-      width: 65%;
+      width: 55%;
+      display: inline-block;
       float: right;
-      padding-right: 20px;
+      margin: 0%;
     }
     .h1{
       font-size: 1.5em;
     }
     .timer {
       font-family: sans-serif;
-      display: inline-block;
       padding: 24px 32px;
       border-radius: 30px;
       background: white;
       font-size: 2.5em;
-    }
-    
-    .puzzle{
-      float:left
-    }
- 
-    
+      margin-left: 110px;
+      }
+
+      #wrapper{
+        float: left;
+        width: 40%;
+        margin-top: 15 px;
+      }
+
+      #nav{
+        font-size: 2em;
+        word-spacing: 30px;
+        width: 50%;
+        border: rgb(20, 36, 58) solid 2px;
+        border-radius: 5px;
+        text-decoration: none;
+        list-style: none;
+        margin-left: 300px;
+        text-align: center;
+      }
+      ul li{
+        display: inline;
+      }
