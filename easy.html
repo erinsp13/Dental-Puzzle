@@ -3,6 +3,7 @@
          <head>
             <title>Easy</title>
             <link rel="stylesheet" href="easy.css">
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         </head>
         <body>
             <header>
@@ -16,11 +17,10 @@
                 <li><a href="hard.html">Hard</a></li>
            </nav>
            </ul>
-            <div id="container1">
-                <div id="timer">
-                    <p><span id="seconds">00</span>:<span id="tens">00</span></p>
-             </div>
-            <center id="easy">
+           <div id="container">
+            <div class="timer"></div>
+
+            <center id="puzzle">
                     <div id="row1" style="display: table-row;">
                         <div id="cell11" class="tile1" onClick="clickTile(1,1);"></div>
                         <div id="cell12" class="tile2" onClick="clickTile(1,2);"></div>
@@ -47,11 +47,6 @@
 
                      </div>
                     </center>
-                
-                <div class="wrapper1">
-                    <button id="button-start">Start</button>
-                    <button id="button-shuffle" onClick="shuffle();">Shuffle</button>
-                 </div>
                 </div>
                  <div id="facts1">
                      <h2>Restortive Dentistry Facts</h2>
