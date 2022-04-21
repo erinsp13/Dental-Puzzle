@@ -1,0 +1,120 @@
+BODY{
+    background-color:#fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(20, 36, 58);
+  }
+  header{
+    background-color: rgb(20, 36, 58);
+    height: 150px;
+    color: #fff;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: none;
+    border-radius: 5px;
+    padding-top: 10px;
+  }
+  
+   .tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9, .tile10, .tile11, .tile12, .tile13, .tile14, .tile15, .tile16, .tile17, .tile18, .tile19, .tile20, .tile21, .tile22, .tile23, .tile24, .tile25{
+          display: table-cell;
+          width: 72px;
+          height: 72px;
+          border: 1px solid white;
+          cursor: pointer;
+          background: url(./images/ortho.jpeg);
+          background-position: -72px -144px;
+        }
+        .tile1 {background-position: 0px 0px;}
+        .tile2 {background-position: -90px 0px;}
+        .tile3 {background-position: -180px 0px;}
+        .tile4 {background-position: -270px 0px;}
+        .tile5 {background-position: 0px -90px;}
+        .tile6 {background-position: -90px -90px;}
+        .tile7 {background-position: -180px -90px;}
+        .tile8 {background-position: -270px -90px;}
+        .tile9 {background-position: 0px -180px;}
+        .tile10 {background-position: -90px -180px;}
+        .tile11 {background-position: -180px -180px;}
+        .tile12 {background-position: -270px -180px;}
+        .tile13 {background-position: 0px -270px;}
+        .tile14 {background-position: -90px -270px;}
+        .tile15 {background-position: -180px -270px;}
+        .tile16 {background: ;}
+        .tile17 {background: ;}
+        .tile18 {background: ;}
+        .tile19 {background: ;}
+        .tile20 {background: ;}
+        .tile21 {background: ;}
+        .tile22 {background: ;}
+        .tile23 {background: ;}
+        .tile24 {background: ;}
+        .tile25 {background: white; cursor: default;}
+        
+
+  
+        button{
+          background-color:rgb(20, 36, 58);
+          width: 60px;
+          height: 60px;
+          margin-left: 16px;
+          border-radius: 50%;
+          border: none;
+          color: white;
+          cursor: pointer;
+        }
+        button:hover{
+          background-color: rgb(106, 133, 170);
+          color:white;
+        }
+  
+  
+      a:link{
+        text-decoration: none;
+      
+      }
+      a:visited{
+        color: rgb(20, 36, 58);
+      }
+      a:hover{
+        color:rgb(42, 121, 121)
+      }
+     
+      #facts{
+        font-size: 1.5em;
+        width: 55%;
+        display: inline-block;
+        float: right;
+        margin: 0%;
+      }
+      .h1{
+        font-size: 1.5em;
+      }
+      .timer {
+        font-family: sans-serif;
+        padding: 24px 32px;
+        border-radius: 30px;
+        background: white;
+        font-size: 2.5em;
+        margin-left: 110px;
+        }
+  
+        #wrapper{
+          float: left;
+          width: 40%;
+          margin-top: 15 px;
+        }
+  
+        #nav{
+          font-size: 2em;
+          word-spacing: 30px;
+          width: 50%;
+          border: rgb(20, 36, 58) solid 2px;
+          border-radius: 5px;
+          text-decoration: none;
+          list-style: none;
+          margin-left: 300px;
+          text-align: center;
+        }
+        ul li{
+          display: inline;
+        }
