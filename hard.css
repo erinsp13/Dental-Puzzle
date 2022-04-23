@@ -15,14 +15,14 @@ BODY{
     padding-top: 10px;
   }
   
-   .tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9, .tile10, .tile11, .tile12, .tile13, .tile14, .tile15, .tile16, .tile17, .tile18, .tile19, .tile20, .tile21, .tile22, .tile23, .tile24, .tile25{
+   .tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9, .tile10, .tile11, .tile12, .tile13, .tile14, .tile15, .tile16, .tile17, .tile18, .tile19, .tile20, .tile21, .tile22, .tile23, .tile24, .tile25, .tile26, .tile27, .tile28, .tile29, .tile30, .tile31, .tile32, .tile33, .tile34, .tile35, .tile36{
           display: table-cell;
-          width: 72px;
-          height: 72px;
+          width: 60px;
+          height: 60px;
           border: 1px solid white;
           cursor: pointer;
           background: url(./images/ortho.jpeg);
-          background-position: -72px -144px;
+          background-position: -60px -120px;
         }
         .tile1 {background-position: 0px 0px;}
         .tile2 {background-position: -72px 0px;}
@@ -48,7 +48,19 @@ BODY{
         .tile22 {background: ;}
         .tile23 {background: ;}
         .tile24 {background: ;}
-        .tile25 {background: white; cursor: default;}
+        .tile25 {background: ;}
+        .tile26 {background: ;}
+        .tile27 {background: ;}
+        .tile28 {background: ;}
+        .tile29 {background: ;}
+        .tile30 {background: ;}
+        .tile31 {background: ;}
+        .tile32 {background: ;}
+        .tile33 {background: ;}
+        .tile34 {background: ;}
+        .tile35 {background: ;}
+        .tile36 {background: white; cursor: default;}
+
         
 
   
