@@ -28,26 +28,26 @@ BODY{
         .tile2 {background-position: -72px 0px;}
         .tile3 {background-position: -144px 0px;}
         .tile4 {background-position: -216px 0px;}
-        .tile5 {background-position: -360px 0px;}
-        .tile6 {background-position: 0px -72px;}
-        .tile7 {background-position: -180px -72px;}
-        .tile8 {background-position: -270px -90px;}
-        .tile9 {background-position: 0px -180px;}
-        .tile10 {background-position: -90px -180px;}
-        .tile11 {background-position: -180px -180px;}
-        .tile12 {background-position: -270px -180px;}
-        .tile13 {background-position: 0px -270px;}
-        .tile14 {background-position: -90px -270px;}
-        .tile15 {background-position: -180px -270px;}
-        .tile16 {background: ;}
-        .tile17 {background: ;}
-        .tile18 {background: ;}
-        .tile19 {background: ;}
-        .tile20 {background: ;}
-        .tile21 {background: ;}
-        .tile22 {background: ;}
-        .tile23 {background: ;}
-        .tile24 {background: ;}
+        .tile5 {background-position: -291px 0px;}
+        .tile6 {background-position: 0px  -72px;}
+        .tile7 {background-position: -72px -72px;}
+        .tile8 {background-position: -144px -72px;}
+        .tile9 {background-position: -216px -72px;}
+        .tile10 {background-position: -291px -72px;}
+        .tile11 {background-position: 0px -144px;}
+        .tile12 {background-position: -72px -144px;}
+        .tile13 {background-position: -144px -144px;}
+        .tile14 {background-position: -216px -144px;}
+        .tile15 {background-position: -291px -144px;}
+        .tile16 {background-position: 0px -216px;}
+        .tile17 {background-position: -72px -216px;}
+        .tile18 {background-position: -144px -216px;}
+        .tile19 {background-position: -216px -216px;}
+        .tile20 {background-position: -291px -216px ;}
+        .tile21 {background-position: 0px -291px;}
+        .tile22 {background-position: -72px -291px;}
+        .tile23 {background-position: -144px -291px;}
+        .tile24 {background-position: -216px -291px;}
         .tile25 {background: white; cursor: default;}
         
 

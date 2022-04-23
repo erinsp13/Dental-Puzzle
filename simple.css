@@ -22,7 +22,7 @@ header{
         height: 120px;
         border: 1px solid white;
         cursor: pointer;
-        background: url(./images/simple.jpeg)
+        background: url(./images/simple.jpg)
       }
       .tile1 {background-position: left top;}
       .tile2 {background-position: center top;}

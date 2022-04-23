@@ -21,7 +21,7 @@ BODY{
           height: 60px;
           border: 1px solid white;
           cursor: pointer;
-          background: url(./images/ortho.jpeg);
+          background: url(./images/hard.jpg);
           background-position: -60px -120px;
         }
         .tile1 {background-position: 0px 0px;}

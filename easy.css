@@ -21,7 +21,7 @@ header{
         height: 90px;
         border: 1px solid white;
         cursor: pointer;
-        background: url(./images/easy.jpeg);
+        background: url(./images/easy.jpg);
         background-position: -90px -180px;
       }
       .tile1 {background-position: 0px 0px;}
