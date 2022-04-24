@@ -10,7 +10,7 @@ class Timer {
       };
   
       this.interval = null;
-      this.remainingSeconds = 300;
+      this.remainingSeconds = 900;
   
       this.el.control.addEventListener("click", () => {
         if (this.interval === null) {

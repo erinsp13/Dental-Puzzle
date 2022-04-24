@@ -25,40 +25,40 @@ BODY{
           background-position: -60px -120px;
         }
         .tile1 {background-position: 0px 0px;}
-        .tile2 {background-position: -72px 0px;}
-        .tile3 {background-position: -144px 0px;}
-        .tile4 {background-position: -216px 0px;}
-        .tile5 {background-position: -360px 0px;}
-        .tile6 {background-position: 0px -72px;}
-        .tile7 {background-position: -180px -72px;}
-        .tile8 {background-position: -270px -90px;}
-        .tile9 {background-position: 0px -180px;}
-        .tile10 {background-position: -90px -180px;}
-        .tile11 {background-position: -180px -180px;}
-        .tile12 {background-position: -270px -180px;}
-        .tile13 {background-position: 0px -270px;}
-        .tile14 {background-position: -90px -270px;}
-        .tile15 {background-position: -180px -270px;}
-        .tile16 {background: ;}
-        .tile17 {background: ;}
-        .tile18 {background: ;}
-        .tile19 {background: ;}
-        .tile20 {background: ;}
-        .tile21 {background: ;}
-        .tile22 {background: ;}
-        .tile23 {background: ;}
-        .tile24 {background: ;}
-        .tile25 {background: ;}
-        .tile26 {background: ;}
-        .tile27 {background: ;}
-        .tile28 {background: ;}
-        .tile29 {background: ;}
-        .tile30 {background: ;}
-        .tile31 {background: ;}
-        .tile32 {background: ;}
-        .tile33 {background: ;}
-        .tile34 {background: ;}
-        .tile35 {background: ;}
+        .tile2 {background-position: -60px 0px;}
+        .tile3 {background-position: -120px 0px;}
+        .tile4 {background-position: -180px 0px;}
+        .tile5 {background-position: -240px 0px;}
+        .tile6 {background-position: -300px 0px;}
+        .tile7 {background-position: 0px -60px;}
+        .tile8 {background-position: -60px -60px;}
+        .tile9 {background-position: -120px -60px;}
+        .tile10 {background-position: -180px -60px;}
+        .tile11 {background-position: -240px -60px;}
+        .tile12 {background-position: -300px -60px;}
+        .tile13 {background-position: 0px -120px;}
+        .tile14 {background-position: -60px -120px;}
+        .tile15 {background-position: -120px -120px;}
+        .tile16 {background-position: -180px -120px;}
+        .tile17 {background-position: -240px -120px;}
+        .tile18 {background-position: -300px -120px;}
+        .tile19 {background-position: 0px -180px;}
+        .tile20 {background-position: -60px -180px;}
+        .tile21 {background-position: -120px -180px;}
+        .tile22 {background-position: -180px -180px;}
+        .tile23 {background-position: -240px -180px;}
+        .tile24 {background-position: -300px -180px;}
+        .tile25 {background-position: 0px -240px;}
+        .tile26 {background-position: -60px -240px;}
+        .tile27 {background-position: -120px -240px;}
+        .tile28 {background-position: -180px -240px;}
+        .tile29 {background-position: -240px -240px;}
+        .tile30 {background-position: -300px -240px;}
+        .tile31 {background-position: 0px -300px;}
+        .tile32 {background-position: -60px -300px;}
+        .tile33 {background-position: -120px -300px;}
+        .tile34 {background-position: -180px -300px;}
+        .tile35 {background-position: -240px -300px;}
         .tile36 {background: white; cursor: default;}
 
         
