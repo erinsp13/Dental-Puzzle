@@ -76,7 +76,7 @@ class Timer {
 
   static getHTML() {
     return `
-			<span class="timer__part timer__part--minutes">00</span>
+			<span class="timer__part timer__part--minutes">02</span>
 			<span class="timer__part">:</span>
 			<span class="timer__part timer__part--seconds">00</span>
 			<button type="button" class="timer__btn timer__btn--control timer__btn--start">

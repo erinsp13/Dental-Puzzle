@@ -13,6 +13,7 @@ header{
     padding-top: 30px;
     margin-top: none;
     border-radius: 5px;
+    box-shadow: rgb(20, 36, 58) 0 0 30px;
 }
 #nav1{
     font-size: 2em;
@@ -23,6 +24,8 @@ header{
     text-decoration: none;
     list-style: none;
     margin-left: 300px;
+    margin-top: 35px;
+    box-shadow: rgb(20, 36, 58) 0 0 30px;
 }
 #directions{
     padding-top: 10px;
@@ -43,4 +46,8 @@ a:hover{
 }
 ul li{
     display: inline;
+}
+img{
+    border-radius: 5px;
+    box-shadow: rgb(20, 36, 58) 0 0 30px;
 }

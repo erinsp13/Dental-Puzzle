@@ -10,7 +10,7 @@ class Timer {
       };
   
       this.interval = null;
-      this.remainingSeconds = 900;
+      this.remainingSeconds = 600;
   
       this.el.control.addEventListener("click", () => {
         if (this.interval === null) {
@@ -76,7 +76,7 @@ class Timer {
   
     static getHTML() {
       return `
-              <span class="timer__part timer__part--minutes">00</span>
+              <span class="timer__part timer__part--minutes">10</span>
               <span class="timer__part">:</span>
               <span class="timer__part timer__part--seconds">00</span>
               <button type="button" class="timer__btn timer__btn--control timer__btn--start">

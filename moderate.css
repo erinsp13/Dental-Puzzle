@@ -13,6 +13,7 @@ BODY{
     margin-top: none;
     border-radius: 5px;
     padding-top: 10px;
+    box-shadow: rgb(20, 36, 58) 0 0 30px;
   }
   
    .tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9, .tile10, .tile11, .tile12, .tile13, .tile14, .tile15, .tile16, .tile17, .tile18, .tile19, .tile20, .tile21, .tile22, .tile23, .tile24, .tile25{
@@ -61,6 +62,7 @@ BODY{
           border: none;
           color: white;
           cursor: pointer;
+          box-shadow: rgb(20, 36, 58) 0 0 30px;
         }
         button:hover{
           background-color: rgb(106, 133, 170);
@@ -85,6 +87,7 @@ BODY{
         display: inline-block;
         float: right;
         margin: 0%;
+        margin-bottom: 25px;
       }
       .h1{
         font-size: 1.5em;
@@ -92,10 +95,14 @@ BODY{
       .timer {
         font-family: sans-serif;
         padding: 24px 32px;
-        border-radius: 30px;
+        border-radius: 5px;
         background: white;
         font-size: 2.5em;
-        margin-left: 110px;
+        margin-left: 100px;
+        margin-top: 30px;
+        box-shadow: rgb(20, 36, 58) 0 0 30px;
+        width: 300px;
+        height: 50px;
         }
   
         #wrapper{
@@ -113,8 +120,19 @@ BODY{
           text-decoration: none;
           list-style: none;
           margin-left: 300px;
+          margin-top: 35px;
           text-align: center;
+          box-shadow: rgb(20, 36, 58) 0 0 30px;
         }
         ul li{
           display: inline;
         }
+        .puzzle{
+          box-shadow: rgb(20, 36, 58) 0 0 30px;
+          width:360px;
+          height:360px;
+          margin-left: 100px;
+          margin-top: 35px;
+          margin-bottom: 25px;
+        }
+       
