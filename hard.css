@@ -107,6 +107,7 @@ BODY{
         font-family: sans-serif;
         padding: 24px 32px;
         border-radius: 5px;
+        border:rgb(20, 36, 58) solid 2px;
         background: white;
         font-size: 2.5em;
         margin-left: 100px;
@@ -145,4 +146,7 @@ BODY{
           margin-left: 100px;
           margin-top: 35px;
           margin-bottom: 25px;
+        }
+        #button-shuffle{
+          padding-top: 10px;
         }

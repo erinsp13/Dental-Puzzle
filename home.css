@@ -28,11 +28,12 @@ header{
     box-shadow: rgb(20, 36, 58) 0 0 30px;
 }
 #directions{
+    color: rgb(20, 36, 58);
     padding-top: 10px;
-    font-size: 2em;
+    font-size: 2.2em;
     float: left;
     width: 60%;
-    
+    margin-top: 75px;
 }
 a:link{
     text-decoration: none;
@@ -48,6 +49,6 @@ ul li{
     display: inline;
 }
 img{
-    border-radius: 5px;
+    border-radius: 50%;
     box-shadow: rgb(20, 36, 58) 0 0 30px;
 }
