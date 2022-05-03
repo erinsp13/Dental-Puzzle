@@ -7,7 +7,7 @@ BODY{
 }
 header{
   background-color: rgb(20, 36, 58);
-  height: 150px;
+  min-height: 150px;
   color: #fff;
   font-size: 2em;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -67,9 +67,11 @@ header{
     #facts{
       font-size: 1.5em;
       width: 55%;
-      display: inline-block;
       float: right;
       margin: 0%;
+      box-sizing: border-box;
+      padding: 15px;
+
     }
     .h1{
       font-size: 1.5em;
