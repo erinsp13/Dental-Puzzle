@@ -9,11 +9,9 @@ BODY{
     color: rgb(20, 36, 58);
     margin: auto;
     padding: 0;
-    border: orange solid 10px;
 }
 .flex-container{
   display: flex;
-  border: blue solid 5px;
   flex-wrap: wrap;
 }
 header{
@@ -27,7 +25,6 @@ header{
   border-radius: 5px;
   padding-top: 10px;
   box-shadow: rgb(20, 36, 58) 0 0 30px;
-  border: red solid 1px;
 }
 
  .tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9 {
@@ -89,16 +86,17 @@ header{
     }
 
     .timer {
+      display: flex;
+      justify-content: center;
       font-family: sans-serif;
+      padding-top: 15px;
       border-radius: 5px;
       border:rgb(20, 36, 58) solid 2px;
       background: white;
       font-size: 2.5em;
       box-shadow: rgb(20, 36, 58) 0 0 30px;
       width: 360px;
-      height: 100px;
-      border: blue solid 2px;
-      
+      height: 80px;  
     }
         #nav{
         display: flex;
@@ -106,6 +104,7 @@ header{
         width: 100%;
         border: rgb(20, 36, 58) solid 2px;
         border-radius: 5px;
+        margin-top: 15px;
         box-shadow: rgb(20, 36, 58) 0 0 30px;
       
       }
@@ -122,7 +121,6 @@ header{
         width:360px;
         height:360px;
         margin-top: 15px;
-        border: red solid 2px;
       }
       #main-block{
         border: green 2px solid;
