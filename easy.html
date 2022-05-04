@@ -1,55 +1,63 @@
 <!DOCTYPE html>
-    <html>
-         <head>
-            <title>Easy</title>
-            <link rel="stylesheet" href="easy.css">
-            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        </head>
-        <body>
-            <header>
-                <h1>EASY LEVEL</h1>
-            </header>
-            <ul>
-            <nav id="nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="simple.html">Simple</a></li>
-                <li><a href="moderate.html">Moderate</a></li>
-                <li><a href="hard.html">Hard</a></li>
-           </nav>
-           </ul>
-           <div id="container">
-            <div id="wrapper">
-            <div class="timer"></div>
+<html>
+    <head>
+        <title>Simple</title>
 
-            <center class="puzzle">
-                    <div id="row1" style="display: table-row;">
-                        <div id="cell11" class="tile1" onClick="clickTile(1,1);"></div>
-                        <div id="cell12" class="tile2" onClick="clickTile(1,2);"></div>
-                        <div id="cell13" class="tile3" onClick="clickTile(1,3);"></div>
-                        <div id="cell14" class="tile4" onClick="clickTile(1,4);"></div>
-                     </div>
-                     <div id="row2" style="display: table-row;">
-                        <div id="cell21" class="tile5" onClick="clickTile(2,1);"></div>
-                        <div id="cell22" class="tile6" onClick="clickTile(2,2);"></div>
-                        <div id="cell23" class="tile7" onClick="clickTile(2,3);"></div>
-                        <div id="cell24" class="tile8" onClick="clickTile(2,4);"></div>
-                     </div>
-                     <div id="row3" style="display: table-row;">
-                        <div id="cell31" class="tile9" onClick="clickTile(3,1);"></div>
-                        <div id="cell32" class="tile10" onClick="clickTile(3,2);"></div>
-                        <div id="cell33" class="tile11" onClick="clickTile(3,3);"></div>
-                        <div id="cell34" class="tile12" onClick="clickTile(3,4);"></div>
-                     </div>
-                     <div id="row4" style="display: table row">
-                        <div id="cell41" class="tile13" onClick="clickTile(4,1);"></div>
-                        <div id="cell42" class="tile14" onClick="clickTile(4,2);"></div>
-                        <div id="cell43" class="tile15" onClick="clickTile(4,3);"></div>
-                        <div id="cell44" class="tile16" onClick="clickTile(4,4);"></div>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-                     </div>
-                    </center>
+        <link rel="stylesheet" href="easy.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+       <div class="flex-conatiner">
+        <header>
+            <h1>SIMPLE LEVEL</h1>
+         </header>
+       <div id="nav">
+        <ul>
+            <nav>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="simple.html">Simple</a></li>
+                  <li><a href="moderate.html">Moderate</a></li>
+                  <li><a href="hard.html">Hard</a></li>
+             </nav>
+             </ul>
+         </div>    
+    <div class="flex-container">
+         <div id="main-block">
+                <div class="timer"></div>
+                
+                       <center class="puzzle">
+                                <div id="row1" style="display: table-row;">
+                                    <div id="cell11" class="tile1" onClick="clickTile(1,1);"></div>
+                                    <div id="cell12" class="tile2" onClick="clickTile(1,2);"></div>
+                                    <div id="cell13" class="tile3" onClick="clickTile(1,3);"></div>
+                                    <div id="cell14" class="tile4" onClick="clickTile(1,4);"></div>
+                                </div>
+                                <div id="row2" style="display: table-row;">
+                                    <div id="cell21" class="tile5" onClick="clickTile(2,1);"></div>
+                                    <div id="cell22" class="tile6" onClick="clickTile(2,2);"></div>
+                                    <div id="cell23" class="tile7" onClick="clickTile(2,3);"></div>
+                                    <div id="cell24" class="tile8" onClick="clickTile(2,4);"></div>
+                                </div>
+                                <div id="row3" style="display: table-row;">
+                                    <div id="cell31" class="tile9" onClick="clickTile(3,1);"></div>
+                                    <div id="cell32" class="tile10" onClick="clickTile(3,2);"></div>
+                                    <div id="cell33" class="tile11" onClick="clickTile(3,3);"></div>
+                                    <div id="cell34" class="tile12" onClick="clickTile(3,4);"></div>
+                                </div>
+                                <div id="row4" style="display: table row">
+                                    <div id="cell41" class="tile13" onClick="clickTile(4,1);"></div>
+                                    <div id="cell42" class="tile14" onClick="clickTile(4,2);"></div>
+                                    <div id="cell43" class="tile15" onClick="clickTile(4,3);"></div>
+                                    <div id="cell44" class="tile16" onClick="clickTile(4,4);"></div>
+                                </div>
+                        </center>
                     </div>
-                </div>
+            
+            
                  <div id="facts">
                      <h2>Restortive Dentistry Facts</h2>
                     
@@ -61,8 +69,11 @@
                          <br>
                         3) Restorative dentistry plays an integral role in boosting your overall oral health. Restoring cracked or decayed teeth prevents further infection. Dental bridges, implants, and dentures are used to strengthen your jawbone.
                     
+                    </div>
+        
                 </div>
-         </html>  
-    </body>
-    <script src="easy.js"></script>
-</html>
+             
+       </div>  
+       </body>
+       <script src="easy.js"></script>
+   </html>

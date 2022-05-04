@@ -1,16 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 BODY{
-  background-color:#fff;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: rgb(20, 36, 58);
+    display: flex;
+    background-color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(20, 36, 58);
+    margin: auto;
+    padding: 0;
+}
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
 }
 header{
+  display: flex;
+  justify-content: center;
   background-color: rgb(20, 36, 58);
   min-height: 150px;
   color: #fff;
   font-size: 2em;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-align: center;
-  margin-top: none;
   border-radius: 5px;
   padding-top: 10px;
   box-shadow: rgb(20, 36, 58) 0 0 30px;
@@ -71,58 +82,63 @@ header{
     }
    
     #facts{
+      display: flex;
+      flex-direction: column;
       font-size: 1.5em;
-      width: 55%;
-      float: right;
-      margin: 0%;
+      width: 60%;
+      padding: 50px;
     }
-    .h1{
-      font-size: 1.5em;
+    header h1{
+      display: center;
+      font-size: 3em;
     }
+
     .timer {
+      display: flex;
+      justify-content: center;
       font-family: sans-serif;
-      padding: 24px 32px;
+      padding-top: 15px;
       border-radius: 5px;
       border:rgb(20, 36, 58) solid 2px;
       background: white;
       font-size: 2.5em;
-      margin-left: 100px;
-      margin-top: 30px;
       box-shadow: rgb(20, 36, 58) 0 0 30px;
-      width: 300px;
-      height: 50px;
-      }
-
-      #wrapper{
-        float: left;
-        width: 40%;
-        margin-top: 15 px;
-      }
-
-      #nav{
-        font-size: 2em;
+      width: 360px;
+      height: 80px;  
+    }
+        #nav{
+        display: flex;
+        justify-content: center; 
+        width: 100%;
         word-spacing: 30px;
-        width: 50%;
         border: rgb(20, 36, 58) solid 2px;
         border-radius: 5px;
-        text-decoration: none;
-        list-style: none;
-        margin-left: 300px;
-        margin-top: 35px;
-        text-align: center;
+        margin-top: 15px;
         box-shadow: rgb(20, 36, 58) 0 0 30px;
+      
       }
-      ul li{
+      #nav li{
+        display: flex;
         display: inline;
+        font-size: 2em;
+        list-style: none;
+        text-decoration: none;
       }
+
       .puzzle{
         box-shadow: rgb(20, 36, 58) 0 0 30px;
         width:360px;
         height:360px;
-        margin-left: 100px;
-        margin-top: 35px;
-        margin-bottom: 25px;
+        margin-top: 15px;
       }
-      #button-shuffle{
-        padding-top: 10px;
+      #main-block{
+        padding: 15px;    
       }
+#button-shuffle{
+  padding-top: 10px;
+}
+@media (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
