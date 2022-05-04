@@ -1,4 +1,5 @@
 BODY{
+    display: flex ;
     background-color:#fff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(20, 36, 58);
