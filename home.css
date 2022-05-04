@@ -52,3 +52,8 @@ img{
     border-radius: 50%;
     box-shadow: rgb(20, 36, 58) 0 0 30px;
 }
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
