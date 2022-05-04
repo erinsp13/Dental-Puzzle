@@ -1,5 +1,4 @@
 *{
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -14,14 +13,12 @@ BODY{
 }
 .flex-container{
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   border: blue solid 5px;
   flex-wrap: wrap;
 }
 header{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background-color: rgb(20, 36, 58);
   min-height: 150px;
   color: #fff;
@@ -87,8 +84,8 @@ header{
       border: yellow solid 2px;
     }
     header h1{
-      text-align: center;
-      font-size: 2em;
+      display: center;
+      font-size: 3em;
     }
 
     .timer {
@@ -105,8 +102,7 @@ header{
     }
         #nav{
         display: flex;
-        justify-content: space-evenly;
-        flex-direction: row;
+        justify-content: center; 
         width: 100%;
         border: rgb(20, 36, 58) solid 2px;
         border-radius: 5px;
@@ -115,7 +111,7 @@ header{
       }
       #nav li{
         display: flex;
-        flex-direction: row;
+        display: inline;
         font-size: 2em;
         list-style: none;
         text-decoration: none;
