@@ -78,7 +78,8 @@ header{
       display: flex;
       flex-direction: column;
       font-size: 1.5em;
-      border: yellow solid 2px;
+      width: 60%;
+      padding: 50px;
     }
     header h1{
       display: center;
@@ -123,7 +124,6 @@ header{
         margin-top: 15px;
       }
       #main-block{
-        border: green 2px solid;
         padding: 15px;     
       }
 #button-shuffle{

@@ -1,4 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
+    display: flex;
     background-color: #fff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
@@ -18,13 +23,12 @@ header{
 #nav1{
     font-size: 2em;
     word-spacing: 30px;
-    width: 50%;
+    width: 100%;
     border: rgb(20, 36, 58) solid 2px;
     border-radius: 5px;
     text-decoration: none;
     list-style: none;
-    margin-left: 300px;
-    margin-top: 35px;
+    margin-top: 25px;
     box-shadow: rgb(20, 36, 58) 0 0 30px;
 }
 #directions{
