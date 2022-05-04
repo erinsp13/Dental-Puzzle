@@ -8,9 +8,15 @@ BODY{
     background-color: #fff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(20, 36, 58);
-    margin: 0;
+    margin: auto;
     padding: 0;
-    border: red solid 1px;
+    border: orange solid 10px;
+}
+.flex-container{
+  display: flex;
+  justify-content: space-around;
+  border: blue solid 5px;
+  flex-wrap: wrap;
 }
 header{
   display: flex;
@@ -23,7 +29,7 @@ header{
   border-radius: 5px;
   padding-top: 10px;
   box-shadow: rgb(20, 36, 58) 0 0 30px;
-  border: red solid 1 px;
+  border: red solid 1px;
 }
 
  .tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9 {
@@ -75,11 +81,10 @@ header{
    
     #facts{
       font-size: 1.5em;
-      box-sizing: border-box;
-      padding: 15px;
-      border: red solid 2px;
-      width: 55%;
+      border: yellow solid 2px;
+      width: 60%;
       float: right;
+      padding: 15px;
     }
     .h1{
       text-align: center;
@@ -88,8 +93,6 @@ header{
 
     .timer {
       font-family: sans-serif;
-      padding: 24px 32px;
-      margin-top: 15px;
       border-radius: 5px;
       border:rgb(20, 36, 58) solid 2px;
       background: white;
@@ -97,32 +100,25 @@ header{
       box-shadow: rgb(20, 36, 58) 0 0 30px;
       width: 360px;
       height: 100px;
-      border: red solid 2px;
-      box-sizing: border-box;
+      border: blue solid 2px;
+      
     }
-    .container{
-      width: 100%;
-      float: left;
-      border: red solid 2px;
-      position: relative;
-    }
-    
-
-      #nav{
+        #nav{
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        justify-items: center;
         justify-content: space-evenly;
-        flex-direction: row;
+        align-self: center;
         width: 50%;
-        font-size: 2em;
         border: rgb(20, 36, 58) solid 2px;
         border-radius: 5px;
-        text-decoration: none;
-        list-style: none;
         box-shadow: rgb(20, 36, 58) 0 0 30px;
-        box-sizing: border-box;
+      
+      }
+      #nav li{
+        display: flex;
+        flex-direction: row;
+        font-size: 2em;
+        list-style: none;
+        text-decoration: none;
       }
 
       .puzzle{
@@ -131,11 +127,11 @@ header{
         height:360px;
         margin-top: 15px;
         border: red solid 2px;
-        box-sizing: border-box;
       }
-      #wrapper{
+      #main-block{
         width: 40%;
-        border: red 2px solid;
+        border: green 2px solid;
+        padding: 15px;     
       }
 #button-shuffle{
   padding-top: 10px;
