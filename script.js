@@ -147,8 +147,16 @@ new Timer(
   
   }
 // Winning the game 
-
+function isFinished(){
+  const currentPieces = document.querySelectorAll('div')
+  const currentClassesOrder = [...currentPieces].map((p) => className);
+  if(
+    div.toString() == currentClassesOrder.toString() 
+    ){
+      showModal();
+    }
+}
 //ClOSING MODAL
- document.querySelector('.close').addEventListener('click', function() {
-document.querySelector('.bg-modal').getElementsByClassName.display = 'none';
- });
+document.querySelector('.close').addEventListener('click', function() {
+document.querySelector('.bg-modal').style.display = 'none';
+});
