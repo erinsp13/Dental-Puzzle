@@ -141,7 +141,7 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
-  display: none;
+  display: ;
 }
 .modal-content{
 width: 500px;
