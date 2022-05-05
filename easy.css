@@ -13,6 +13,7 @@ BODY{
 .flex-container{
   display: flex;
   flex-wrap: wrap;
+  margin: 15px;
 }
 header{
   display: flex;
@@ -53,6 +54,7 @@ header{
       .tile15 {background-position: -180px -270px;}
       .tile16 {background: white; cursor: default;}
 
+     
       button{
         background-color:rgb(20, 36, 58);
         width: 60px;
@@ -132,7 +134,7 @@ header{
         margin-top: 15px;
       }
       #main-block{
-        padding: 15px;    
+        padding: 15px;   
       }
 #button-shuffle{
   padding-top: 10px;
