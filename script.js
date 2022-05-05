@@ -147,38 +147,8 @@ new Timer(
   
   }
 // Winning the game 
-function isFinished() {
-  const currentPieces = document.querySelectorAll('div');
-  const currentClassesOrder = [... currentPieces].map((p)=> p.className);
-  if(
-      images.toString() == currentClassesOrder.toString()
-  ){
-     showModal();
-     pauseTimer();
-    }
-}
 
-  const showModal = () => {
-    document.getElementById('message').innerText = "Hooray you win!"
-    document.getElementById('modal').classList.remove("hide");
-
-}
-
-const hideModal = () => {
-    document.getElementById('modal').classList.add("hide");
-}
-
-function getFinalTime(){
-    let diffInMin = elapsedTime/60000;
-    let mins = Math.floor(diffInMin);
-    let diffInSec = (diffInMin - mins) * 60;
-    let secs = diffInSec.toFixed(1);
-    if(mins > 1) {
-        timeMessage = `${mins} minute and ${secs} seconds`;
-    } else if(mins > 0) {
-        timeMessage = `${mins} minutes and ${secs} seconds`;
-    } else {
-        timeMessage = `${secs} seconds`;
-    }
-    return timeMessage;
-}
+//ClOSING MODAL
+ document.querySelector('.close').addEventListener('click', function() {
+document.querySelector('.bg-modal').getElementsByClassName.display = 'none';
+ });
