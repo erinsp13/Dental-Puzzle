@@ -131,6 +131,45 @@ header{
 #button-shuffle{
   padding-top: 10px;
 }
+
+#modal {
+  width: 50%;
+  height: 500px;
+  background: #fff;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: .5rem double rgb(106, 133, 170);
+  border-radius: 5px;
+  text-align: center;
+}
+#modal #message {
+  color: rgb(20, 36, 58);
+  margin: 0;
+  font-size: 2rem;
+}
+
+.hide {
+ display: ;
+}
+#modal #header {
+  text-align: right;
+  padding: 5px 10px;
+}
+#modal #header button {
+  padding: 10px;
+  border: 0px;
+  background: rgb(20, 36, 58);
+  color: #d2e2ff;
+  cursor: pointer;
+}
+img{
+  border-radius: 50%;
+  box-shadow: rgb(20, 36, 58) 0 0 30px;
+  margin-top: 10px;
+}
 @media (max-width: 600px) {
   .flex-container {
     flex-direction: column;
