@@ -146,17 +146,23 @@ new Timer(
   }
   
   }
-// Winning the game 
-function isFinished(){
-  const currentPieces = document.querySelectorAll('div')
-  const currentClassesOrder = [...currentPieces].map((p) => className);
-  if(
-    div.toString() == currentClassesOrder.toString() 
-    ){
-      showModal();
-    }
+// WIN THE GAME
+/*function isFinished(){
+const currentTile = document.querySelectorAll (div);
+const currentTilesOrder = [...currentTiles].map ((p)=> p.className);
+if(
+  div.toString() == currentTileOrder.toString()
+){
+  showModal();
 }
+  const showModal = () => {
+    document.getElementById('.bg-modal').classList.remove("hide");
+  }
+}
+
+
 //ClOSING MODAL
 document.querySelector('.close').addEventListener('click', function() {
 document.querySelector('.bg-modal').style.display = 'none';
 });
+*/
