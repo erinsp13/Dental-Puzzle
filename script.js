@@ -147,22 +147,22 @@ new Timer(
   
   }
 // WIN THE GAME
-/*function isFinished(){
-const currentTile = document.querySelectorAll (div);
-const currentTilesOrder = [...currentTiles].map ((p)=> p.className);
+function isFinished(){
+const currentTile = document.querySelectorAll(cell);
+const currentCellOrder = [...currentCell].map ((p)=> p.className);
 if(
-  div.toString() == currentTileOrder.toString()
+  cell.toString() == currentCellOrder.toString()
 ){
   showModal();
 }
-  const showModal = () => {
-    document.getElementById('.bg-modal').classList.remove("hide");
-  }
 }
+  const showModal = () => {
+    document.getElementsByClassName('.bg-modal').classList.remove("hide");
+  }
+
 
 
 //ClOSING MODAL
 document.querySelector('.close').addEventListener('click', function() {
 document.querySelector('.bg-modal').style.display = 'none';
 });
-*/
