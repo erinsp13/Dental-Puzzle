@@ -7,6 +7,7 @@ class Timer {
       minutes: root.querySelector(".timer__part--minutes"),
       seconds: root.querySelector(".timer__part--seconds"),
       control: root.querySelector(".timer__btn--control"),
+      reset: root.querySelector(".timer__btn--reset")
     };
 
     this.interval = null;
@@ -24,12 +25,12 @@ class Timer {
     const inputMinutes = prompt("Enter number of minutes:");
 
       if (inputMinutes < 60) {
-        this.stop();
-        this.remainingSeconds = inputMinutes * 60;
-        this.updateInterfaceTime();
-      }
-    });
-  }
+      this.stop();
+      this.remainingSeconds = inputMinutes * 60;
+      this.updateInterfaceTime();
+    }
+  });
+}
 
   updateInterfaceTime() {
     const minutes = Math.floor(this.remainingSeconds / 60);
@@ -76,14 +77,16 @@ class Timer {
 
   static getHTML() {
     return `
-			<span class="timer__part timer__part--minutes">02</span>
+			<span class="timer__part timer__part--minutes">00</span>
 			<span class="timer__part">:</span>
 			<span class="timer__part timer__part--seconds">00</span>
 			<button type="button" class="timer__btn timer__btn--control timer__btn--start">
 				<span class="material-icons">play_arrow</span>
-        <button id="button-shuffle" onClick="shuffle();">Shuffle</button>
 			</button>
-
+			<button type="button" class="timer__btn timer__btn--reset">
+				<span class="material-icons">timer</span>
+			</button>
+      <button id="button-shuffle" onClick="shuffle();">Shuffle</button>
 		`;
   }
 }
@@ -158,6 +161,7 @@ if(
 }
   const showModal = () => {
     document.getElementsByClassName('.bg-modal').classList.remove("hide");
+    console.log(showModal)
   }
 
 
